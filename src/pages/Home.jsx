@@ -4,8 +4,19 @@ export default function Home() {
   
   return (
     <div>
-        <h2 className="text-2xl font-bold mb-4">Bem-vindo ao Fiap Commerce!</h2>
-        <Card />
+        <h2 className="font-bold bg-black text-yellow-300 mb-4 text-center text-lg">Eletronicos</h2>
+        <Card 
+
+        />
+        <h2 className="font-bold bg-black text-yellow-300 mb-4 text-center text-lg">Joias</h2>
+         <Card 
+
+        />
+        <h2 className="font-bold bg-black text-yellow-300 mb-4 text-center text-lg">Roupas</h2>
+         <Card 
+
+        />
+
     </div>
   );
 }

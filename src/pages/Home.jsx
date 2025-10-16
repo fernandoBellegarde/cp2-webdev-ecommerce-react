@@ -14,7 +14,7 @@ export default function Home() {
         />
         <h2 className="font-bold bg-black text-yellow-300 mb-4 text-center text-lg">Roupas</h2>
          <Card 
-
+          
         />
 
     </div>

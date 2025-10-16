@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 export default function Layout() {
@@ -5,7 +6,7 @@ export default function Layout() {
     <div className="min-h-screen bg-gray-100">
       <Navbar />
       <main>
-        <p> Conteúdo principal</p>
+        <Outlet />
       </main>
     </div>
   );
